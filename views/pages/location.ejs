@@ -1,0 +1,31 @@
+<main>
+
+    <center>
+      <h2>Welcome to a <%= location %> pick an area to find your animal</h2>
+  
+      <% if (location === "Farm") { %> 
+        <div style="display: inline-flex;">
+            <a href="/Area/Shed" style="margin-right: 50px;">
+              <img src="https://res.cloudinary.com/di449masi/image/upload/v1640814055/maxresdefault_agkupc.jpg" width="500px" height="500px"/>
+            </a>
+            <br></br>
+            <a href="/Area/Barn">
+              <img src="https://res.cloudinary.com/di449masi/image/upload/v1640814158/merlin_189019935_3a0cd78c-dcdd-442c-9f2b-8894ed2fbd4e-superJumbo_fyi72a.jpg" width="500px" height="500px"/>
+            </a>
+          </div>
+        
+    <% } else { %>
+        <div style="display: inline-flex;">
+            <a href="/Area/Jungle" style="margin-right: 50px;">
+              <img src="https://res.cloudinary.com/di449masi/image/upload/v1640814630/1048799_fey3vs.jpg" width="500px" height="500px"/>
+            </a>
+            <br></br>
+            <a href="/Area/Aquarium">
+              <img src="https://res.cloudinary.com/di449masi/image/upload/v1640814566/Mobile-and-Attraction-Search-V1-with-Right-Handle_zdouse.png" width="500px" height="500px"/>
+            </a>
+          </div>
+
+    <% } %>
+</div>
+</center>
+  </main>

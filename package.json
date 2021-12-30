@@ -1,0 +1,31 @@
+{
+  "name": "node-sprint-adventure-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeshawnSharper/Node-Sprint-Adventure-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeshawnSharper/Node-Sprint-Adventure-Game/issues"
+  },
+  "homepage": "https://github.com/KeshawnSharper/Node-Sprint-Adventure-Game#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "heroku-cli": "^7.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
