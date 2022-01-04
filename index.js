@@ -61,8 +61,8 @@ app.post('/signup', async function(req, res) {
   let error = ""
   console.log(req.session)
   if (filterUsers.length >= 1){
-    error = "User doesn't exists"
-    res.render('pages/login',{error:error});
+    error = "User already exists"
+    res.render('pages/signup',{error:error});
   }
   else{
     console.log(req.session)
