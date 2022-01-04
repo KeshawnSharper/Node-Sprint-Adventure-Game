@@ -2,11 +2,11 @@
 
     <h2>Welcome <%= name %>  Pick your location </h2>
     <div style="display: inline-flex;">
-  <a href="/Location/Farm" style="margin-right: 50px;">
+  <a href="/Location/Farm/?name=<%= name %>" style="margin-right: 50px;">
     <img src="https://res.cloudinary.com/di449masi/image/upload/v1640812155/50881797506_176f3d534f_z_ptbfil.jpg" width="500px" height="500px"/>
   </a>
   <br></br>
-  <a href="/Location/Zoo">
+  <a href="/Location/Zoo/?name=<%= name %>">
     <img src="https://res.cloudinary.com/di449masi/image/upload/v1640813626/Blank_Park_Zoo_Entrance_y4zgjp.jpg" width="500px" height="500px"/>
   </a>
 </div>
